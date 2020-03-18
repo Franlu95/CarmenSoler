@@ -23,10 +23,11 @@
 			<nav class="menu">
 				<ul>
 					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Biografía</a></li>
 					<li><a href="#">Sitios Históricos</a></li>
-					<li><a href="#">Análisis de su obra</a></li>
-					<li><a href="#">Obras y manuscritos</a></li>
+					<li><a href="#">Vida</a></li>
+					<li><a href="#">Sobre su obra</a></li>
+					<li><a href="#">Galería</a></li>
+					<li><a href="#">Poemas</a></li>
 					<li><a href="#">Los investigadores</a></li>
 				</ul>
 			</nav>
@@ -40,33 +41,40 @@
 	</div>
         <!-- SLIDER -->
 	<div class="sitios">
-                        <p>Sitios Históricos</p>
-			<!-- <div class="sitioscarrusel">
-				<img src="img/foto1.jfif">
-				<img src="img/foto2.png">
-				<img src="img/foto3.jfif"> 
-                               nosequeporongaseaesto perovoyaponerelsliderac�-->
+		<h1>Sitios Históricos</h1>
         <section class="regular slider">
             <div><a href="www.google.com"><img src="imgs/1.jpg" alt=""></a></div>
             <div><a href=""><img src="imgs/2.jpg" alt=""></a></div>
             <div><a href=""><img src="imgs/3.jpg" alt=""></a></div>
             <div><a href=""><img src="imgs/4.jpg" alt=""></a></div>
             <div><a href=""><img src="imgs/5.jpg" alt=""></a></div>
-
         </section>
         <script>
-        $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1
-      });
+			$(".regular").slick({
+        		dots: true,
+        		infinite: true,
+        		slidesToShow: 3,
+        		slidesToScroll: 1
+      		});
         </script>
-       </div>
+    </div>
         <!-- FIN SLIDER -->
         
-        <div class="quienfue">
-		<p>¿Quién fue?</p>
+	<div class="quienfue">
+		<div class="leftcontainer">
+			<h1>¿Quién fue?</h1>
+			<h2>Aenean sodales turpis.</h2>
+			<div class="pcontainer">
+				<p>Consectetur adipiscing elit. Fusce congue condi-
+				mentum tristique. Donec id nunc eu diam
+				bibendum molestie at a erat. Nulla viverra nulla
+				elit, eu laoreet nibh dignissim quis. Maecenas</p>
+			</div>
+			<a href="#">Leer Más.</a>
+		</div>
+		<div class="rightcontainer">
+			<img src="imgs/smile.jpg">
+		</div>
 	</div>
 	<div class="legado">
 		<p>Legado</p>
